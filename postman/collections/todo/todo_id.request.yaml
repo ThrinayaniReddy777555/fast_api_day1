@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:8000/todos/2
+method: GET
+order: 4381221559900489

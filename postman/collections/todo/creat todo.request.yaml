@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://localhost:8000/todos/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"title\": \"Buy egg\",\r
+
+    \  \"description\": \"Milk, eggs, bread\",\r
+
+    \  \"completed\": false\r
+
+    }"
+order: 1977
